@@ -33,7 +33,7 @@ public class Startup
 }
 ```
 ### **6. Obtain a JWT access_token for your user**
- - Issue a POST request to `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=[WEB-API-KEY] ` with the following body to obtain a JWT access token for your test user
+ - Issue a POST request to `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=YOUR-WEB-API-KEY ` with the following body to obtain a JWT access token for your test user
 
 ```json
 {
