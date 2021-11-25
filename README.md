@@ -9,19 +9,19 @@ To Replicate [Issue 48](https://github.com/graphql-aspnet/graphql-aspnet/issues/
  - With your project active click on **Authentication** on the left hand side then click **Sign In Method**
  - Add the *Email/Password* native provider
 
-![Enable EmailPassword Provider](images/1.png)
+![Enable EmailPassword Provider](images/1.PNG)
 
 ### **3. Add a User Account**
 
  -  Click on the *Users* tab and add a new user. 
     - Note the User UID you'll need it to request a token
   
-![Add a New User](images/2.png)
+![Add a New User](images/2.PNG)
 
 ###  **4. Copy the Project Id and Web API Key**
 - Click on **Project Overview** -> **Gear Icon** -> **Project Settings** and copy the Project ID and the Web API Key
   
-![Copy Project Details](images/3.png)
+![Copy Project Details](images/3.PNG)
 
 ### **5. Update Startup.cs with your project Id**
 ```csharp
