@@ -59,7 +59,7 @@ Execute a postman request against the REST end points, supplying the `idToken` o
 ![REST Queries Work](images/5.png)
 
 ### **2. Execute the GraphQL Tests**
-Using a GraphQL tool submit the identical graphql requests. Don't forget to include the authorization header with the expected bearer token.
+Use a GraphQL tool submit the identical graphql requests. Don't forget to include the authorization header with the bearer token.
 
 #### When the query that **does not include** a specific scheme is executed the user id is returned as expected.
 
